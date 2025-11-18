@@ -141,9 +141,9 @@ Upload a PDF → get recommendations instantly.
 
 Similarity is based on **entity overlap**:
 
-\[
-score = |E_{input} ∩ E_{case}|
-\]
+$$
+\text{score} = \left| E_{\text{input}} \cap E_{\text{case}} \right|
+$$
 
 Cases are ranked by descending score.  
 This makes the system fast, interpretable, and domain-relevant.
