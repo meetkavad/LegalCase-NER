@@ -142,7 +142,7 @@ Upload a PDF → get recommendations instantly.
 Similarity is based on **entity overlap**:
 
 $$
-\text{score} = \left| E_{\text{input}} \cap E_{\text{case}} \right|
+\text{score} = \left| E_{\text{input-case}} \cap E_{\text{case-from-db}} \right|
 $$
 
 Cases are ranked by descending score.  
