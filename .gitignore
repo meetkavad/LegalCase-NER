@@ -1,0 +1,21 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Virtual environment
+env/
+venv/
+
+# OS junk
+.DS_Store
+
+# Logs
+*.log
+
+# PDFs or datasets (avoid uploading legal PDFs)
+*.pdf
+
+# legal_cases.db
+
+# Model directories (if any)
+*.model
