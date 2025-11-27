@@ -38,7 +38,8 @@ def recommend_cases(input_pdf: str, top_k: int = 10) -> List[Dict]:
                 "score": score,
                 "entities_matched": list(
                     set(input_entities).intersection(set(case["entities"]))
-                )
+                ),
+                "file_path": case["file_path"]
             })
 
     recommendations.sort(key=lambda x: x["score"], reverse=True)
